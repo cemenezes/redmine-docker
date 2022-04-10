@@ -3,8 +3,8 @@ default:
         delivery_method: :smtp
         smtp_settings:
           tls: true
-          address: "mail.ac.gov.br"
+          address: "mailserver.example.com"
           port: 587
           authentication: :plain
-          user_name: "nao-responda.seplag"
-          password: "zEPrWzeR"
+          user_name: "nao-responda"
+          password: "password"
