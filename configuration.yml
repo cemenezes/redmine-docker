@@ -1,0 +1,10 @@
+default:
+     email_delivery:
+        delivery_method: :smtp
+        smtp_settings:
+          tls: true
+          address: "mail.ac.gov.br"
+          port: 587
+          authentication: :plain
+          user_name: "nao-responda.seplag"
+          password: "zEPrWzeR"
